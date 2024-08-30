@@ -1,0 +1,26 @@
+
+
+
+
+
+
+LSTM Examples
+https://the-learning-machine.com/article/dl/long-short-term-memory
+https://www.kaggle.com/amarsharma768/stock-price-prediction-using-lstm/notebook
+https://www.analyticsvidhya.com/blog/2021/12/stock-price-prediction-using-lstm/#:~:text=Yes%2C%20LSTMs%20can%20be%20used,historical%20data%20and%20market%20trends.
+https://www.analyticsvidhya.com/blog/2021/10/machine-learning-for-stock-market-prediction-with-step-by-step-implementation/
+
+Prophet
+https://www.kaggle.com/code/janiobachmann/s-p-500-time-series-forecasting-with-prophet
+
+
+BTC
+https://github.com/marcotav/deep-learning/tree/master/bitcoin
+
+PostgreSQL Instalation
+https://www.freecodecamp.org/news/postgresql-in-python/
+
+PostgreSQL commands
+https://realpython.com/python-sql-libraries/#postgresql_1
+
+
