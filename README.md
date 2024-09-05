@@ -1,6 +1,6 @@
-![pulsar_star_wp](https://gssc.esa.int/navipedia/images/a/a9/Example.jpg)
+![pulsar_star_wp](https://puretechme.com/wp-content/uploads/2024/06/main-qimg-62afbb12ec0254a9b35c30981919ec49.jpg)
 
-# Project Titel
+# Profit Pilot
 
 ### Project Overview
 Objective: Describe the main goal of the project, which is to use machine learning techniques to predict a specific outcome based on the given dataset.
