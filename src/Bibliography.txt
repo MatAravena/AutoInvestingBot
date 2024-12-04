@@ -1,9 +1,4 @@
 
-
-
-
-
-
 LSTM Examples
 https://the-learning-machine.com/article/dl/long-short-term-memory
 https://www.kaggle.com/amarsharma768/stock-price-prediction-using-lstm/notebook
@@ -13,14 +8,16 @@ https://www.analyticsvidhya.com/blog/2021/10/machine-learning-for-stock-market-p
 Prophet
 https://www.kaggle.com/code/janiobachmann/s-p-500-time-series-forecasting-with-prophet
 
-
 BTC
 https://github.com/marcotav/deep-learning/tree/master/bitcoin
 
 PostgreSQL Instalation
 https://www.freecodecamp.org/news/postgresql-in-python/
 
+
 PostgreSQL commands
 https://realpython.com/python-sql-libraries/#postgresql_1
 
 
+Trading Strategies Ideas
+https://www.andrewdarmond.com/publication/finance/
