@@ -17,7 +17,7 @@ from keras.callbacks import EarlyStopping
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import tensorflow as tf
 
-# For time stamps   
+# For time stamps
 import datetime as dt
 
 # Scaling the dataset
@@ -126,9 +126,9 @@ def getPredictions(dataset, lookback=60, dropout_rate=0.2, epochs=10):
         error_score='raise'     # To display errors
     )
 
-    print(x_train)
-    print(y_train)
- 
+    print('x_train: ',x_train)
+    print('y_train: ',y_train)
+
     # Train the model
     grid_result = grid.fit(
         x_train, 
@@ -139,8 +139,6 @@ def getPredictions(dataset, lookback=60, dropout_rate=0.2, epochs=10):
         verbose=1
     )
 
-    return
- 
     # Get the models predicted price values
     predictions_model = model.predict(x_test)
     predictions_model = scaler.inverse_transform(predictions_model)
@@ -196,4 +194,6 @@ end_date = dt.datetime.now()
 start_date = end_date - dt.timedelta(days=365*5)
 
 dataset = load_stock_data(stock, start_date, end_date)
+print('Init predictions')
 getPredictions(dataset)
+print('Ending predictions')
