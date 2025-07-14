@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def generate_signals(predicted_prices, actual_prices):
     # Calculate the difference between consecutive predicted prices
     predictions_diff = np.diff(predicted_prices, axis=0)
@@ -36,7 +35,7 @@ def backtest_strategy(predicted_prices, actual_prices, initial_balance=10000):
                 stock_held = cash / actual_prices[i]
                 cash = 0
                 print(f"Buying at price {actual_prices[i]}")
-        
+
         elif signals[i] == -1:  # Sell signal
             if stock_held > 0:
                 # Sell all the stock
@@ -49,7 +48,7 @@ def backtest_strategy(predicted_prices, actual_prices, initial_balance=10000):
 
     # Final portfolio value
     final_portfolio_value = cash + stock_held * actual_prices[-1]
-    
+
     return final_portfolio_value, portfolio_value
 
 def generate_signals_with_threshold(predicted_prices, actual_prices, threshold=0.01):
